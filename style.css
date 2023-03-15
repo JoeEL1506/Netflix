@@ -1,0 +1,258 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: sans-serif;
+    color: white;
+    /* background-color: black; */
+}
+main{
+    background: rgba(0, 0, 0, 0.5) url(netflix.jpg) no-repeat center center/cover;
+    height: 100vh;
+    width: 100%;
+    background-blend-mode: darken;
+    border-bottom: 9px solid #222;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 15px 30px;
+}
+.nav img{
+    width: 200px;
+}
+.nav button {
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-weight: 300;
+    
+
+}
+.header-text{
+    margin-top: 150px;
+    text-align: center;
+}
+.header-text h1,h2,h3{
+    color: white;
+    align-items: center;
+    justify-content: center;
+    line-height: 3rem;
+    
+    
+}
+.header-text h1{
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.header-text input, .container input[type='email']{
+    width: 500px;
+    height: 60px;
+    /* text-align: left; */
+}
+
+input:focus {
+    outline: 0;
+}
+
+.header-text form, .container form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.formLock{
+    display: flex;
+}
+form h3{
+    font-size: 18px;
+}
+.header-text button, form button{
+    background-color: red;
+    color: white;
+    border: none;
+    font-size: 16px;
+    padding: 15px 40px;
+}
+.secondsc {
+    background-color: black;
+    width: 100%;
+    border-bottom: 5px solid #222;
+}
+.tv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 100px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: left;
+    gap: 100px;
+    margin-top: -20px;
+    border-bottom: 5px solid #222;
+}
+
+.tv img{
+    width: 400px;
+   
+}
+.tv h1, h2{
+    line-height: 2rem;
+}
+
+.mobile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 100px;
+    height: 400px;
+}
+
+.mobile img {
+    width: 400px;
+}
+
+.mobile h1,h2 {
+    line-height: 3rem;
+}
+
+
+h1{
+    font-size: 45px;
+    font-weight: 400;
+}
+h2{
+    line-height: 2rem;
+    font-family:  Calibri;
+}
+.text{
+    padding: 0 100px;
+    text-align: left;
+    padding-top: 80px;
+    line-height: 3rem;
+    padding-bottom: 30px;
+}
+.kids{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 70px;
+    gap: 50px;
+    padding-top: 80px;
+    padding-bottom: 5opx;
+}
+.kids img {
+    width: 500px;
+    height: 400px;
+}
+.questionContainer{
+    background-color: black;
+    text-align: center;
+    padding: 70px 45px;
+    align-items: center;
+    border-bottom: 5px solid #222;
+}
+.faqBox h1{
+    font-size: 3.125rem;
+    line-height: 1.1;
+    margin-bottom: 0.5rem;
+}
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 40px;
+
+}
+.container .wrapper button{
+    appearance: none;
+    width: 100%;
+    height: 70px;
+    background-color: #333;
+    padding: 0.8rem 2.2rem 0.8rem 1.2rem;
+}
+.wrapper .question{
+    position: relative;
+    margin-bottom: 1px;
+    padding: 0.8rem 2.2rem 0.8rem 1.2rem;
+    text-align: left;
+    cursor: pointer;
+    
+}
+.question{
+    position: absolute;
+    color: white;
+    font-size: 26px;
+    font-weight: 400;
+}
+p{
+    display: none;
+}
+.container .wrapper button:focus ~ p{
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    background-color: #333;
+    color: white;
+    font-size: 26px;
+    padding: 31.2px;
+    text-align: left;
+}
+footer{
+    background-color: black;
+}
+.footerContainer{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 70px 45px;
+}
+.footerContent{
+    margin-top: 80px;
+    color: #737373;
+    min-width: 190px;
+    padding-bottom: 20px;
+    position: relative;
+    width: 100%;
+    text-align: left;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-inline-start: 40px;
+    
+}
+.footerTop-a{
+    color: #737373;
+    font-size: 16px;
+}
+ul{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    list-style-type: none;
+    
+   
+}
+ul li{
+    padding: 10px;
+   
+}
+ul li a{
+    color: #737373;
+    font-size: 12px;
+}
+ul li a:hover{
+    text-decoration: underline ;
+}
+a{
+    text-decoration: none;
+}
+.footerCountry{
+    font-size: 12px;
+}
